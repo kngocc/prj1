@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+
+    color: white;
+    overflow-y: scroll;
+    font-family: Arial, sans-serif;
+    background-color: black
+}
+
+.navigation {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    top: 20px;
+
+
+
+}
+
+.symbol {
+    height: 100%;
+    width: 35%;
+    display: flex;
+}
+
+.symbol-icon {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+
+.symbol-manner {
+    height: 100%;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.under-manner {
+    font-weight: 300;
+}
+
+.navi {
+    height: 100%;
+    width: 60%;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 7px;
+}
+
+
+.navi a {
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.navi a:hover {
+    background-color: aliceblue;
+    padding: 20px 30px;
+    color: black;
+}
+
+i {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.side-bar {
+    height: 100%;
+    width: 10%;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 3px;
+    color: white;
+
+}
+
+.side-bar-item {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+#mySidebar {
+    display: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.side-bar-item:hover {
+    background-color: aliceblue;
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.side-bar-button {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-color: black;
+    transition-duration: 0.3s;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.section-1 {
+
+    width: 100vw;
+    background-color: black;
+
+}
+
+
+.location {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 20vh;
+}
+
+.section-1-extra {
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.section-2 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://scontent.fhan5-10.fna.fbcdn.net/v/t1.15752-9/373459269_7422431317772486_8268001506543142927_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=LahfUxCesioAX9YxJ1h&_nc_ht=scontent.fhan5-10.fna&oh=03_AdRFylmifraL_T_gXEyWtLy6_rcq2FVCx8iJmJM6bN-YCg&oe=65273858);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+.form {
+    height: 50%;
+    width: 50%;
+    background-color: #b1c5d094;
+    box-shadow: 0 35px 50px #0a151609;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: transparent;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.inputt {
+    color: white;
+}
+
+.inputbox input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    padding-right: 130px;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
